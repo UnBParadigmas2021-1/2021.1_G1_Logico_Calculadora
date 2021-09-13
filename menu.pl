@@ -4,7 +4,7 @@
 
 menu :- repeat, nl, nl,
         write(' ** Bem vindo(a) ao menu de seleção de mini jogos do grupo 1! Selecione abaixo sua opcao: **'), nl, nl,
-        write('1 - Descubra o animal'), nl,
+        write('1 - Jogo do bicho'), nl,
         write('0 - Sair'), nl,
         write(' ** ----------------------------------------- **'), nl, nl,
         read(Option),
