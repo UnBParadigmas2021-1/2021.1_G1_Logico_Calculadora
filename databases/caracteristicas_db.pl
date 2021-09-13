@@ -21,3 +21,7 @@ cavalo :- mamifero,
          herbivoro,
          verify(ele_e_util_para_transporte),
          verify(ele_possui_crina).
+golfinho :- mamifero,
+            carnivoro,
+            verify(ele_nada),
+            verify(e_simpatico). 
