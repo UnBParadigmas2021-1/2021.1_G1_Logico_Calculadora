@@ -8,7 +8,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 17/0039668  |  Lucas Ganda Carvalho |
-| 17/0047321  |  Wictor Bastos Girardi|
+| 17/0047326  |  Wictor Bastos Girardi|
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
