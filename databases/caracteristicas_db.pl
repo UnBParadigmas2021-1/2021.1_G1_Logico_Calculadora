@@ -31,3 +31,25 @@ aguia :- ave,
 falcao :- ave,
         carnivoro,
         verify(e_a_ave_mais_rapida_do_mundo).
+pinguim :- ave,
+           carnivoro,
+           verify(e_fofo),
+           verify(um_exemplar_da_especie_sabe_sapatear_em_um_filme). 
+tigre :- mamifero,
+            carnivoro,
+            verify(e_um_dos_maiores_predadores_do_mundo_animal),
+            verify(e_basicamente_um_gato_gigante).
+leao :- mamifero,
+        carnivoro,
+        verify(e_um_dos_maiores_predadores_do_mundo_animal),
+        verify(um_exemplar_da_especie_cantou_hakuna_matata_em_um_filme).
+urso-polar :- mamifero,
+        carnivoro,
+        verify(vive_no_artico),
+        verify(ele_nada),
+        verify(vive_no_artico),
+        verify(bebe_coca_cola).
+arara-azul :- ave,
+        herbivoro,
+        verify(e_muito_bonita),
+        verify(e_encontrada_apenas_no_brasil).
