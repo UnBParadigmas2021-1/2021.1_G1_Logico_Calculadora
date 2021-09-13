@@ -24,4 +24,10 @@ cavalo :- mamifero,
 golfinho :- mamifero,
             carnivoro,
             verify(ele_nada),
-            verify(e_simpatico). 
+            verify(e_simpatico).
+aguia :- ave,
+        carnivoro,
+        verify(e_simbolo_de_um_pais).
+falcao :- ave,
+        carnivoro,
+        verify(e_a_ave_mais_rapida_do_mundo).
