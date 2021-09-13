@@ -1,5 +1,7 @@
 /* Menu de seleção de jogos, começa com ?- menu.  */
 
+/* menu. (1). init.  */
+
 menu :- repeat, nl, nl,
         write(' ** Bem vindo(a) ao menu de seleção de mini jogos do grupo 1! Selecione abaixo sua opção: **'), nl, nl,
         write('1 - Descubra o animal'), nl,

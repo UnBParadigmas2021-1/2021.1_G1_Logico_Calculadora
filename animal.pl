@@ -2,7 +2,7 @@
 
 init :- chute(Animal),
       write('** Bem vindo ao jogo do bicho! Iremos fazer algumas perguntas e tentar adivinhar qual animal você está pensando! **'), nl, nl,
-      write('Eu acho que o seu animal é um: '),
+      write('Eu acho que o seu animal é um(a): '),
       write(Animal),
       nl,
       undo.
@@ -11,6 +11,8 @@ init :- chute(Animal),
 chute(capivara)   :- capivara, !.
 chute(macaco)     :- macaco, !.
 chute(jacare)     :- jacare, !.
+chute(cobra)      :- cobra, !.
+chute(cavalo)      :- cavalo, !.
 chute(desconhecido).  /* não descobrimos seu animal */
 
 /* animais e suas caracteristicas  */
@@ -18,7 +20,7 @@ chute(desconhecido).  /* não descobrimos seu animal */
 capivara :- mamifero, 
            herbivoro, 
            verify(ele_nada),
-           verify(e_fofa).
+           verify(é_fofa).
 macaco :- mamifero,  
          herbivoro,
          verify(ele_vive_em_arvores), 
@@ -28,12 +30,21 @@ jacare :- reptil,
          verify(ele_nada), 
          verify(voce_se_torna_um_ao_ser_vacinado),
          verify(seu_apelido_popular_é_jaré).
+cobra :- reptil,  
+         carnivoro,
+         venenoso,
+         verify(ele_pode_te_matar).
+cavalo :- mamifero,  
+         herbivoro,
+         verify(ele_é_util_para_transporte),
+         verify(ele_possui_crina).
 
 /* classificacoes */
 mamifero    :- verify(tem_pelo), !.
 mamifero    :- verify(produz_leite).
-reptil    :- verify(possui_pele_grossa), !.
-reptil    :- verify(sao_conhecidos_por_serem_animais_pre_historicos).
+reptil      :- verify(possui_pele_grossa), !.
+reptil      :- verify(sao_conhecidos_por_serem_animais_pre_historicos).
+venenoso    :- verify(possui_veneno), !.
 ave      :- verify(possui_penas), !.
 ave      :- verify(voa), 
              verify(bota_ovos).
