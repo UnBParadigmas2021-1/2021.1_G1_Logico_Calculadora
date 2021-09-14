@@ -36,7 +36,7 @@ Insira um manual ou um script para auxiliar ainda mais.
 > Digite no terminal `s.` ou `n.`
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
+![screenshot1](assets/Apresentacao_paradigmas.mp4)
 
 ## Fontes
-Caso utilize materiais de terceiros, referencie-os adequadamente.
+- https://stackoverflow.com/questions/21597880/running-prolog-on-a-mac/21601469
