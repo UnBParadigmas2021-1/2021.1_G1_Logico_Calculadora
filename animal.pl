@@ -13,7 +13,7 @@ init :- chute(Animal),
 
 /* perguntas */
 ask(Question) :-
-    write('O seu animal possui: '),
+    write('O seu animal: '),
     write(Question),
     write('? '),
     read(Response),

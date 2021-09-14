@@ -9,7 +9,6 @@
 | -- | -- |
 | 17/0039668  |  Lucas Ganda Carvalho |
 | 17/0047326  |  Wictor Bastos Girardi|
-Å
 ## Sobre 
 Programa escrito em Prolog com tema de jogo de adivinhação de animais. Ao iniciar o jogo o usúario é questionado sobre diversas perguntas e irá tentar adivinhar o animal que o usuário está pensando.
 
