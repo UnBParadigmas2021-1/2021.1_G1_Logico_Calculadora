@@ -10,7 +10,7 @@
 | 17/0039668  |  Lucas Ganda Carvalho |
 | 17/0047326  |  Wictor Bastos Girardi|
 ## Sobre 
-O projeto se baseia em um programa escrito em Prolog, que possui como tema um jogo de adivinhação de animais. Ao iniciar o jogo o usuário é questionado sobre diversas perguntas que envolvem características de animais, após as perguntas serem respondidas o jogo irá tentar adivinhar o animal que o usuário está pensando. O trabalho utiliza alguns conceitos importantes como o de deduções e também o de base de dados.
+O projeto se baseia em um programa escrito em Prolog baseado no código que pode ser encontrado nas fontes do projeto e que possui como tema um jogo de adivinhação de animais. Ao iniciar o jogo o usuário é questionado sobre diversas perguntas que envolvem características de animais, após as perguntas serem respondidas o jogo irá tentar adivinhar o animal que o usuário está pensando. O trabalho utiliza alguns conceitos importantes como o de deduções e também o de base de dados.
 
 ## Screenshots
 ![screenshot1](assets/menu.png)
@@ -40,3 +40,4 @@ Insira um manual ou um script para auxiliar ainda mais.
 
 ## Fontes
 - https://stackoverflow.com/questions/21597880/running-prolog-on-a-mac/21601469
+- https://www.cpp.edu/~jrfisher/www/prolog_tutorial/2_17.html
